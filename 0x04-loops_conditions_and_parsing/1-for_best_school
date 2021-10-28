@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Displays Best school 10 times
+# displays Holberton School 10 times.
 
-for((c=1; c<=10: c++))
+for (( a=1; a<=10; a++ ))
 do
-    echo "Best School"
+    echo "Holberton School"
 done
