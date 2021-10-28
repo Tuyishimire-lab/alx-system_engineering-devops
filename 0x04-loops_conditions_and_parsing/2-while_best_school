@@ -2,8 +2,8 @@
 # displays Holberton School 10 times.
 
 TIMES=0
-for [ $TIMES <= 10 ]
+while [ $TIMES -lt 10 ]
 do
     echo "Holberton School"
-    let TIMES=TIMES++
+    let TIMES=TIMES+1
 done
