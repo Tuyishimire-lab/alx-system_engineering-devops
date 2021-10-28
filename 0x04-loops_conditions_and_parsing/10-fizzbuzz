@@ -3,14 +3,13 @@
 COUNTER=1
 while [ $COUNTER -lt 101 ]
 do
-    if [ $((COUNTER%15)) = 0 ]
+    if [ $((COUNTER % 15)) = 0 ]
     then
         echo "FizzBuzz"
-        
-    elif [ $((COUNTER%3)) = 0 ]
+    elif [ $((COUNTER % 3)) = 0 ]
     then
         echo "Fizz"
-    elif [ $((COUNTER%5)) = 0 ]
+    elif [ $((COUNTER % 5)) = 0 ]
     then
         echo "Buzz"
     else
