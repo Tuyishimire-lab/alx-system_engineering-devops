@@ -6,6 +6,7 @@ while [ $COUNTER -lt 10 ]
 do
     echo "Best School"
     if(( COUNTER == 9))
+    then
         echo "Best School \n Hi"
     let COUNTER=COUNTER+1
 done
