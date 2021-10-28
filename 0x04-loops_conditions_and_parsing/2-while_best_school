@@ -4,6 +4,6 @@
 TIMES=0
 while [ $TIMES -lt 10 ]
 do
-    echo "Holberton School"
+    echo "Best School"
     let TIMES=TIMES+1
 done
