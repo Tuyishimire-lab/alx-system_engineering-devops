@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# displays Holberton School 10 times.
+
+COUNTER=0
+while [ $COUNTER -lt 10 ]
+do
+    echo "Best School"
+    if(( COUNTER == 9))
+        echo "Best School \n Hi"
+    let COUNTER=COUNTER+1
+done
