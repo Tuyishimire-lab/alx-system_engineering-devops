@@ -1,14 +1,17 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
 
-COUNTER=0
+COUNTER=1
 while [ $COUNTER -lt 11 ]
 do
     if [ $COUNTER = 4 ]
     then
         echo "bad luck"
-    if [$COUNTER = 8 ]
+    elif [ $COUNTER = 8 ]
     then
         echo "good luck"
+    else
+        echo "Holberton School"
+    fi
     let COUNTER+=1
 done
