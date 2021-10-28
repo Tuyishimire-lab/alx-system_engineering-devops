@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # displays Holberton School 10 times.
 
-for ((a<=10))
+TIMES=0
+for [a<=10]
 do
     echo "Holberton School"
+    let TIMES=TIMES++
 done
