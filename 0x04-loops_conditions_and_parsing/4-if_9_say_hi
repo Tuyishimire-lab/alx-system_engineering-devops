@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
-COUNTER=0
-while [ $COUNTER -lt 11 ]
-do
-    if [ $COUNTER = 9 ]
+# This script is displaying "Holberton School" 10 times
+counter=0
+while [ $counter -lt 10 ]; do
+    if [ $counter -eq 8 ]
     then
-        echo "Hi"
+	echo -e "Best School\nHi"
     else
-        echo "Best School"
+	echo "Best School"
     fi
-    let COUNTER+=1
+    let counter=counter+1
 done
