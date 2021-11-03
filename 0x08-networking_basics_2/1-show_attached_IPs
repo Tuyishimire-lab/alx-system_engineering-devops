@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# a script that sidplays all active IPS on a computer
+ifconfig | grep "init addr"|cut -d":" -f2|cut -d" " -f1
