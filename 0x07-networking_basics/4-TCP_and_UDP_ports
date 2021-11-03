@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#it displays listen port with TCP and UDP
+netstat -lp
